@@ -3,7 +3,7 @@ sequenceDiagram
     participant server
     participant database
 
-    browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+    browser->>server: POST  https://studies.cs.helsinki.fi/exampleapp/new_note_spa
     activate server
     server->>database: Save new note to database
     activate database
